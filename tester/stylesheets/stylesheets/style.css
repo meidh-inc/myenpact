@@ -1,0 +1,301 @@
+.mainbackground{
+	
+	background-color:white;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-weight:normal;
+}
+#header{ 
+	text-align:center;
+}
+#header_bar{
+	background-image:url("../images/header_black.png");
+	background-repeat: repeat-x;
+	height:24px;
+}
+#footer_bar{
+	border-bottom:1px solid black;
+}
+#footer{
+	text-align:center;
+}
+#login_button{
+	border: 1px solid rgb(204, 204, 204);
+	font-weight:bold;
+	color:rgb(51,131,187);
+	border-radius:6px;
+	width:150px;
+	height:40px;
+}
+.login_textboxes{
+	border: 2px solid #A0A0A0;
+	border-radius:7px;
+}
+
+
+
+
+
+.login_button_background{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#8A8A8A'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#8A8A8A)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #cccccc,  #8A8A8A); /* for firefox 3.6+ */
+	background-color:#cccccc;
+	border-radius:12px;
+	box-shadow:rgba(0,0,0,0.5) 0px 0px 24px;
+}
+
+
+
+
+
+
+#login_div {
+	/*float:left;*/
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+	behavior: url(/stylesheets/border-radius.htc);
+	padding:5px;
+	width:200px;
+	text-align:right;
+	background-color:#787775;
+	box-shadow:rgba(0,0,0,0.5) 0px 0px 24px;
+	color:silver;
+	font-weight:bold;
+}
+
+
+.login_button{
+	border:none;
+	background:none;
+	cursor:pointer;
+	font-weight:bold;
+	color:#004E9A;
+}
+#dash_leftspace_div {
+	float:left;
+	width:65px;
+	height:90px;
+	text-align:right;
+}
+#ques_leftspace_div {
+	float:left;
+	width:10px;
+	height:60px;
+	text-align:right;
+}
+#dash_midspace_div {
+	float:left;
+	width:15px;
+	height:90px;
+	text-align:right;
+}
+#dash_msgcenter_div {
+	float:left;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+	behavior: url(/stylesheets/border-radius.htc);
+	padding:5px;
+	background-color:white;
+	width:370px;
+	height:90px;
+	text-align:right;
+	background-color:#E3E3E3;
+	font-weight:normal;
+}
+#dash_terms_div {
+	float:left;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+	behavior: url(/stylesheets/border-radius.htc);
+	border:1px solid #dcdcdc;
+	padding:5px;
+	background-color:white;
+	width:550px;
+	height:220px;
+	text-align:justify;
+	color:gray;
+	font-weight:normal;
+}
+#dash_sterms_div {
+	float:left;
+	border:1px solid #dcdcdc;
+	padding:5px;
+	background-color:white;
+	width:780px;
+	height:400px;
+	text-align:justify;
+	color:gray;
+	font-weight:normal;
+}
+#dash_social_div {
+	float:left;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+	behavior: url(/stylesheets/border-radius.htc);
+	padding:5px;
+	background-color:white;
+	width:370px;
+	height:90px;
+	text-align:right;
+	background-color:#E3E3E3;
+	font-weight:bold;
+}
+#ques_tip_div {
+	float:left;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+	behavior: url(/stylesheets/border-radius.htc);
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	width:780px;
+	height:40px;
+	text-align:left;
+	background-color:#C0D08F;
+	font-weight:normal;
+	color:#383838;
+}
+#ques_ad_div {
+	float:left;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+	behavior: url(/stylesheets/border-radius.htc);
+	border:none;
+	padding-top:10px;
+	width:800px;
+	height:100px;
+	background-color:white;
+	font-weight:normal;
+}
+.scoreboard_menu_buttons {
+	width:155px;
+	background:none;
+	padding:10px;
+	border-bottom:none;
+	border-top:thin solid #999999;
+	border-right:none;
+	border-left:none;
+	color:#AAAD66;  /*green*/
+	color:#7FB8D2;  /*blue*/
+	font-size:16px;
+	cursor:pointer;
+}
+.dashboard_menu_buttons {
+	width:200px;
+	float:left;
+	background:none;
+	padding:10px;
+	border-bottom:none;
+	border-top:none;
+	border-right:none;
+	border-left:thin solid #999999;
+	font-size:26px;
+	cursor:pointer;
+}
+.social_menu_buttons {
+	width:123px;
+	float:left;
+	background:none;
+	padding:5px;
+	border-bottom:none;
+	border-top:none;
+	border-right:none;
+	border-left:thin solid #999999;
+	font-size:16px;
+	cursor:pointer;
+}
+.certify_button {
+	width:140px;
+	float:left;
+	background:none;
+	padding:10px;
+	border-bottom:none;
+	border-top:none;
+	border-right:none;
+	border-left:thin solid #707070;
+	font-size:21px;
+	color:#8DC63F;
+	cursor:pointer;
+}
+.settings_menu_buttons {
+	width:280px;
+	float:left;
+	background:none;
+	padding:10px;
+	border-bottom:none;
+	border-top:none;
+	border-right:none;
+	border-left:thin solid #999999;
+	font-size:18px;
+	cursor:pointer;
+}
+
+#outer_div{
+	width:900px;
+}
+#content{
+	
+}
+div.login_filler{
+	height:60px;
+}
+div.header-green{
+	background-color:#E7EFE7;
+	height:90px;
+	font-size:32px;
+	padding-top:30px;
+}
+div.survey-div-left{
+	float:left;
+	width:200px;
+}
+#dash-info-box{
+	float:left;
+	height:215px;
+	width:200px;
+}
+#dash-scorespacer-box{
+	float:left;
+	font-weight:bold;
+	width:75px;
+	height:250px;
+}
+#dash-score-box{
+	float:left;
+	font-weight:bold;
+	width:270px;
+	height:250px;
+}
+#survey-content{
+	padding-left:50px;
+	padding-right:50px;
+}
+#header-content{
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:10px;
+}
